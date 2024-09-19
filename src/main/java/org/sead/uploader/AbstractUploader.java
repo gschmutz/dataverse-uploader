@@ -451,6 +451,7 @@ System.out.println("tagId: " + tagId);
                     created = true;
                 }
             } else {
+                println(" does exist on server, could merge");
                 // FixMe - if dataId exists, we could check sha1 and upload a
                 // version if file changes
             }
